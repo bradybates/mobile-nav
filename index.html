@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mobile Hamburger Menu</title>
+    <title>Responsive Hamburger Menu - CSS Grid</title>
 
     <link rel="stylesheet" href="css/mystyle.css">
   </head>
@@ -16,19 +16,19 @@
 
       <div class="logo">Your Logo</div>
 
-      <nav>
-
-        <input id="menu-select" type="checkbox" />
-        <label class="menu-container" for="menu-select">
-          <div class="menu-button"></div>
+        <input class="mobile-toggle" type="checkbox" id="mobile-toggle"/>
+        <label class="menu-icon" for="mobile-toggle">
+          <span class="menu-lines"></span>
         </label>
 
+      <nav>
 
-        <ul class="menu">
+        <ul class="menu-items">
           <li><a href="#">NAV1</a></li>
           <li><a href="#">NAV2</a></li>
           <li><a href="#">NAV3</a></li>
           <li><a href="#">NAV4</a></li>
+
         </ul>
 
       </nav>
@@ -37,6 +37,7 @@
 
     <main>
 
+      <h1>Some content</h1>
 
     </main>
 
